@@ -30,7 +30,7 @@ body {
     gap: .1rem;
     min-height: 100vh;
     /* background: linear-gradient(var(--pink) 0%, var(--violet) 100%); */
-    background: url('/Assets/bg-01.png');
+    background: url('./Assets/bg-01.png');
     background-position: center;
     background-size: cover;
     animation: storyjelly .5s 1s infinite;
@@ -39,7 +39,7 @@ body {
 
 body.active {
     animation: bass .5s .5s infinite;
-    background: url('/Assets/music.mp4');
+    background: url('./Assets/music.mp4');
     background-size: cover;
     background-repeat: no-repeat;
 }
